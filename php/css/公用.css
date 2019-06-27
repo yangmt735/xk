@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{
+	border:0;
+}   
+img,input{
+	border:none;
+	vertical-align:middle;
+}   
+body{
+	background: #fff;
+}
+body, p {
+    font: 14px/1 Microsoft YaHei;
+    color: #333;
+}   
+html{
+	overflow-y:scroll;
+}   
+ul,ol{
+	list-style-type:none;
+}   
+th,td,input{
+	font-size:12px;
+}   
+h3{
+	font-size:14px;
+}   
+button{
+	border:none;
+	cursor:pointer;
+	font-size:12px;
+	background-color:transparent;
+}       
+.clearfix{
+	zoom:1;
+	display: block;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+/*头部*/
+#hd{
+	height: 108px;
+	width: 100%;
+	background-color:cornflowerblue;
+}
+#hd .hd-inner {
+	top: 54px;
+	height: 54px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    opacity: 0.4;
+    background: #FFFFFF;
+}
+.shool-badge{
+	width: 50px;
+	padding: 2px;
+	height: 50px;
+}
+.inner-inner{
+	height: 54px;
+	width:auto;
+}
+.shool-name{
+	height: 27px;
+	width: 1100px;
+}
+.world{
+	padding-left: 2px;
+	padding-right: 5px;
+	background: honeydew;
+}
+.type{
+	padding-top: 9px;
+	height: 18px;
+}
+.famous{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #FFFFFF;
+	font-size: 6px;
+	text-align: center;
+} 
+.hd-nav{
+	background: lightblue;
+}
+.hd-nav ul{
+	padding-top: 4.5px;
+	padding-bottom: 4.5px;
+	float: left;
+}
+.hd-nav ul li{
+	display: inline;
+	text-align: center;
+	font-size: 18px;
+	padding-left: 20px;
+	letter-spacing: 4px;
+	border-left: 2px solid #FFFFFF;
+}
+.hd-nav div{
+	padding-top: 6.5px;
+	padding-bottom: 6.5px;
+	padding-left: 20px;
+}
+/*尾部*/
+#ft{
+	width: 100%;
+	height: auto;
+	background: #808080;
+}
+.fin{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.fin ul{
+	padding-top: 20px;
+}
+.fin li{
+	display: inline;
+	margin-right: 20px;
+}

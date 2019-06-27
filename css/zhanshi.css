@@ -1,0 +1,93 @@
+/*展示区*/
+.content .tab-pane fade{
+	display: inline-block;
+}
+.zhanshi{
+	display: inline-block;
+	border: solid #E2E3E5 1px;
+	width: 198px;
+	margin: 16px;
+}
+.zhanshi .time{
+	display: inline;
+}
+.zhanshi .z1{
+	font-size: 15px;
+	color:  #4E555B;
+	font-weight: 700;
+	margin-left: 15px;
+}
+.zhanshi .z2{
+	display: inline;
+}
+
+.zhanshiqu{
+	font-size: 22px;
+	text-align: center;
+	color: #000000;
+	margin-top: 15px;
+}
+.zhanshi p{
+	margin-left: 10px;
+	margin-top:10px ;
+}
+
+.nav ul{
+	list-style: none;
+}
+.content .nav li{
+	width: 202px;
+	display: inline;
+	float: left;
+	background-color:  #ECECF6;
+	margin-right:15px;
+	margin-left: 15px;
+	text-align: center;
+	border-radius: 5px;
+	
+}
+.content{
+	border: solid #ADB5BD 1px;
+	margin-left: 100px;
+	border-radius: 15px;
+}
+
+#2 hover:{
+		float: left;
+}
+.zhaiyao{
+	display: block;
+}
+.bs{
+	border-top:solid  #E2E3E5 1px ;
+	line-height: 25px;
+	letter-spacing: 5px;
+	padding-top: 5pxs;
+	display: inline-block;
+	width: 196px;
+}
+.bianji{
+	cursor: pointer;
+	border-right: solid #E2E3E5 1px;
+	display: inline-block;
+	width: 88px;
+	text-align: center;
+	margin-left: 22px;
+	margin-bottom: 8px;
+}
+.bianji:hover{
+	color:  deepskyblue;
+}
+.shanchu{
+	/*border: solid #ADB5BD 1px;*/
+	cursor: pointer;
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+	margin-left: 26px;
+	margin-bottom: 8px;
+}
+.shanchu:hover{
+	color:  deepskyblue;
+}
+

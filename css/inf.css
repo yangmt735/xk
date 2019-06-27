@@ -1,0 +1,76 @@
+.inf{
+margin-top: 70px;
+margin-bottom: 40px;	
+}
+.inf-title{
+	height: 66px;
+	background: inherit;
+    background-color: rgba(242, 242, 242, 1);
+    position: relative;
+}
+.inf-title img{
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 150px;
+}
+.inf h3{
+	position: absolute;
+	left: 280px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 66px;
+}
+.inf h4{
+	font-size: 20px;
+	margin: 30px 0 25px 0;
+}
+.inf label{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	margin: 5px 10px 5px 0;
+}
+.inf span,.inf sup{
+	color: #ff0000;
+}
+.inf input{
+	width: 300px;
+	height: 25px;
+	margin: 5px 0 5px 0;
+}
+.inf .qt{
+	width: 184px;
+	height: 18px;
+}
+.inf .sex{
+	width: 13px;
+	height: 13px;
+}
+.inf .hobby{
+	width: 13px;
+	height: 13px;
+}
+.inf-content{
+	margin-left: 500px;
+	margin-top: 50px;
+	/*width: 500px;*/
+}
+.inf-content form img{
+	width: 116px;
+	height: 116px;
+}
+.inf .submit{
+	width:180px;
+	height:40px ;
+	text-align: center;
+	margin-left: 140px;
+}
+.inf p{
+	text-align: center;
+	margin-left: -40px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,127 @@
+
+footer p{
+	text-align: center;
+	font-size: 16px;
+}
+footer{
+	width: 1536px;
+	height: 200px;
+	background-color: #D3D3D3;
+   margin-top: 30px;
+}
+footer div{
+	padding-top: 30px;
+}
+.fang{
+	width: 100%;
+	height: 340px;
+	border-left: solid 15px lightgray;
+	border-right: solid 15px lightgray;
+	border-top: solid 10px lightgray;
+	border-bottom: solid 10px lightgray;
+	position: absolute;
+	left:0px;
+	top: 250px;
+}
+.do{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 520px;
+	left: 380px;
+	font-size: large;
+}
+.done{
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+.does{
+	background-color: lightgray;
+	height:1px ;
+	width: 94%;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+#container{
+	position: relative;
+	background-color: ;
+	height:240px ;
+	width: 720px;
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	border: solid 1px black;
+	overflow: hidden;
+}
+ *{ margin: 0; padding: 0; text-decoration: none;}
+        /*body { padding: 20px;}
+        */
+        #list { 
+              height:240px ;
+	         width: 1200px;
+	         position: absolute;
+	        top: 0px;
+	         left: 200px; 
+               z-index: 1;
+        
+        
+        }
+        #list img {
+        	 float: left;
+             width: 240px;
+             height: 240px;
+             
+             border: solid 1px black;
+             border-radius: 5px;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        }
+        #buttons {
+        	 position: absolute;
+         height: 10px; 
+         width: 100px; 
+         z-index: 2; 
+         bottom: 20px; 
+         left: 330px;
+         }
+        #buttons span { 
+        	cursor: pointer; 
+        float: left;
+         border: 1px solid #fff; 
+         width: 10px; 
+         height: 10px;
+          border-radius: 50%; 
+          background: #333; 
+          margin-right: 5px;}
+        #buttons .on {  background: orangered;}
+        .arrow {
+        	 
+        	cursor: pointer;
+        display: none; 
+      /*  line-height: 39px; */
+        text-align: center;
+        font-size: 36px; 
+        font-weight: bold;
+         width: 100px; 
+        /* height: 40px; */
+         position: absolute;
+         z-index: 2; 
+         top: 100px;
+         background-color: RGBA(0,0,0,.3); color: #fff;
+         text-decoration: none;}
+        .arrow:hover { background-color: RGBA(0,0,0,.7);}
+        .arrow:visited { background-color: lightgray;}
+        #container:hover .arrow { display: block;}
+        #prev { left: 0px;
+        }
+        #next { right: 0px;}

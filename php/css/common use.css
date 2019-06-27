@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{
+	border:0;
+}   
+img,input{
+	border:none;
+	vertical-align:middle;
+}   
+body{
+	background: #fff;
+}
+body, p {
+    font: 14px/1 Microsoft YaHei;
+    color: #333;
+}   
+html{
+	overflow-y:scroll;
+}   
+ul,ol{
+	list-style-type:none;
+}   
+th,td,input{
+	font-size:12px;
+}   
+h3{
+	font-size:14px;
+}   
+button{
+	border:none;
+	cursor:pointer;
+	font-size:12px;
+	background-color:transparent;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}       
+.clearfix{
+	zoom:1;
+	display: block;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+/*头部*/
+#hd{
+	height: 250px;
+	width: 100%;
+	text-align: center;
+	background: url(../img/bg2.png);
+		background-size: 100% auto;
+}
+#hd .hd-inner {
+	top: 50%;
+	height: 125px;
+    width: 1192px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(255,255,255,0.4);
+}
+.shool-badge{
+	text-align: center;
+	line-height: 125px;
+}
+.inner-inner{
+	height: 125px;
+	width:1086px;
+}
+.shool-name{
+	height: 85px;
+	line-height: 85px;
+	text-align: center;
+}
+.world{
+	padding-left: 2px;
+	padding-right: 5px;
+	line-height: 79px;
+}
+.world strong{
+	font-size: 30px;
+}
+.type{
+	height: 18px;
+	margin-top: 38px;
+}
+.gr{
+	height: 18px;
+	width: 3px;
+	background: greenyellow;
+	float: left;
+}
+.famous{
+	margin: 1px 0;
+	background: #FFFFFF;
+	height: 16px;
+	text-align: center;
+	width: 55px;
+	line-height: 16px;
+	border-radius:3px ;
+} 
+.famous p{
+	display: block;
+	height: 18px;
+	letter-spacing: 3px;
+	color: #808080;
+}
+.hd-nav{
+	background: lightblue;
+	height: 40px;
+	line-height: 40px;
+}
+.hd-nav ul{
+	float: left;
+	height: 40px;
+}
+.hd-nav ul li{
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	border-right: 2px solid #FFFFFF;
+	
+}
+.hb{
+	background: #1E90FF !important;
+}
+.gz{
+	width: 186px;
+	margin-left: 10px;
+	font-size: 10px;
+}
+.num{
+	background: #FFFFFF;
+	width: 100px;
+	height: 30px;
+	margin: 5px 0;
+	line-height: 30px;
+	text-align: center;
+}
+.focus{
+	height: 30px;
+	margin: 5px 0;
+	background: #1E90FF;
+	line-height: 30px;
+	width: 70px;
+	text-align: center;
+}
+.focus span a{
+	color: #FFFFFF;
+}
+/*尾部*/
+#ft{
+	width: 100%;
+	height: auto;
+	background: #808080;
+}
+.fin{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.fin ul{
+	padding-top: 20px;
+}
+.fin li{
+	display: inline;
+	margin-right: 20px;
+}

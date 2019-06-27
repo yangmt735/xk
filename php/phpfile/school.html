@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>查找学校</title>
+	</head>
+	<body>
+		<?php
+									
+session_start();
+
+ echo $_SESSION['name']
+?>
+		<form action="school.php" method="post">
+	<div style="text-align: center;">		
+请输入查找的学校: <input type="text" name="school">
+
+<input type="submit" value="查找">
+</div>
+
+</form>
+ 
+	</body>
+</html>

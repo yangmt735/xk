@@ -1,0 +1,156 @@
+#bd{
+	margin:0 10%;
+	padding-top: 20px;
+	height:901px
+}
+.information{
+	width: 65%;
+	border:0.5px solid gainsboro;
+}
+.ty{
+	padding: 20px 25px 20px 25px;
+}
+.name-top{
+	height: 28px;
+}
+.share{
+	margin: 7px 0;
+}
+.name-buttom{
+	margin: 15px 0;
+}
+.name-buttom li{
+	display: inline;
+margin-right: 50px;
+}
+.chi{
+	border-bottom: solid 2px dodgerblue;
+	width: 110px;
+}
+.letter{
+	font-size: 30px;
+	color: sandybrown;
+}
+.blue{
+	font-size: 20px;
+	color: dodgerblue;
+}
+.eng a{
+	color: gray;
+}
+.light{
+	margin: 20px 0;
+				
+}
+.light span{
+	background: sandybrown;
+	text-align: center;
+	font-size: 20px;
+	width: 100px;
+	height: 35px;
+	display: inline-block;
+	line-height: 35px;
+	margin-right: 10px;
+}
+.ments{
+	margin: 20px 0;
+}
+.ments ul{
+	display: inline-block;
+	margin-right: 100px;
+}
+.ments ul li{
+	margin-bottom: 20px;
+}
+.describe{
+	padding-top: 0;
+}
+.des{
+	margin: 20px 0;
+}
+.des span{
+	color: gray;
+}
+.job-requirements p{
+	text-indent: 25px;
+	color: gray;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+.button{
+	text-align: center;
+}
+.dodgerblue{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	background: dodgerblue;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.button a{
+	color: #F4A460;
+}
+.bd-fr{
+	width: 30%;
+	margin-left: 10px;
+}
+.card{
+	border:0.5px solid gainsboro;
+	border-top-color:deepskyblue ;
+	padding: 20px 20px 0 20px;
+}
+.dotted{
+	border-bottom: dotted gray 1px;
+}
+.dotted div{
+	border-bottom: dotted deepskyblue 1px;
+	padding-bottom: 10px;
+	width: 85px;
+}
+.card-buttom{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.card-buttom ul li{
+	margin:10px 0;
+}
+.contact{
+	margin: 20px 0;
+	background: #DCDCDC;
+	padding: 20px 20px 0 20px;
+}
+.contact li{
+	padding-bottom: 20px;
+}
+.login{
+	border: solid #F4A460 1px;
+}
+.login-inner{
+	margin: 5px;
+	border: dotted 1px #DCDCDC;
+	padding: 15px;
+}
+.x{
+	margin-bottom: 20px;
+}
+.user{
+	border: solid #DCDCDC 1px;
+	height: 32px;
+	line-height: 30px;
+	border-radius: 5px;
+}
+.user input{
+	margin-left: 28px;
+	height: 30px;
+	border-radius: 5px;
+	width: 206px;
+}
+.sandybrown{
+	background-color: #F4A460;
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	color: #FFFFFF;
+}

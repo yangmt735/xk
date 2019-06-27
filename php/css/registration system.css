@@ -1,0 +1,193 @@
+#bd{
+	height: auto;
+	padding:50px 20%;
+	background-color: #DCDCDC;
+}
+.bd-inner{
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+.form{
+	padding: 20px 0;
+	text-align: center;
+}
+.form .hd{
+	margin: 10px 0 20px 0;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background: #F0FFF0;
+	border: solid #DCDCDC 1px;
+}
+.form .hd a{
+	line-height: 30px;
+}
+.form #zhuc a{
+	width: 100px;
+	text-align: right;
+	display: inline-block;
+}
+.form #zhuc div{
+	height: 30px;
+	line-height: 30px;
+	padding: 10px 0;
+	display: block;
+}
+.form #zhuc div input{
+	border: solid lightgrey 1px;
+	height: 30px;
+	width: 210px;
+	padding-left: 10px;
+}
+.form #zhuc div em{
+	color: #F4A460;
+	font-size: 12px;
+}
+.form #zhuc div button{
+	background: #00BFFF;
+	height: 30px;
+	width: 80px;
+	color: #FFFFFF;
+}
+.write{
+	background: #FFFFFF !important;
+}
+#zhuc{
+	display: block;
+}
+#bm{
+	display: none;
+}
+.ps{
+	float: left !important;
+}
+#bd div{
+	margin-bottom: 20px;
+}
+#bd .ib li{
+	display: inline-block;
+	margin-right: 20px;
+	height: 30px;
+	line-height: 30px;
+	width: 140px;
+	text-align: left;
+}
+.pic img{
+	display: block;
+	padding-bottom:5px ;
+}
+.fileinput-button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.fileinput-button input{
+            position: absolute;
+            right: 0px;
+            top: 0px;
+             opacity: 0;
+            -ms-filter: 'alpha(opacity=0)';
+}
+.fileinput-button span{
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	background: #D3D3D3;
+}
+.l{
+	color: red;
+	height: 19px;
+	line-height: 19px;
+}
+.ib li input[type="text"]{
+	height: 28px;
+	border: solid 1px #D3D3D3;
+	width: 80px;
+}
+.yx{
+	width: 285px !important;
+}
+.yx input{
+	width: 200px !important;
+}
+.bt .dib{
+	display: inline-block;
+}
+.mbz{
+	margin-bottom: 0 !important;
+}
+.jg ul li{
+	width: 100% !important;
+}
+.jg ul input{
+	width: 300px !important;
+}
+.fbt{
+	margin-left: 156px;
+	text-align: left;
+}
+.fbt textarea{
+	resize: none;
+	margin-top: 10px;
+}
+.hidden{
+	display: none;
+}
+.fbt input[type="checkbox"]{
+	margin-left: 10px;
+}
+#bm button{
+	background: #00BFFF;
+	height: 30px;
+	width: 80px;
+	color: #FFFFFF;
+}
+.hdw{
+	margin: 10px 0 20px 0;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background: #FFFFFF !important;
+	border: solid #DCDCDC 1px;
+	background: #FFFFFF !important;
+}
+.hdw a{
+	line-height: 30px;
+}
+.x{
+	color: black;
+}
+.y{
+	color: red;
+}
+.success{
+	display:none;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: fixed;
+	background:#000000;
+	text-align: center;
+}
+.ts{
+	background: #1E90FF;
+	margin: 18% 40%;
+	height:auto;
+}
+.ts p{
+	padding: 20px 0;
+	font-size:18px ;
+	color:#FFFFFF;
+}
+.ts a{
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	margin:0 10px;
+	background:#000000;
+	line-height: 20px;
+	color: #FFFFFF;
+}

@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/*overflow: hidden;*/
+}
+/*头部*/
+.head{
+	width: 1536px;
+	box-shadow: 0px 2px 10px 3px  lightgrey;
+}
+.xkpic img{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.xkpic{
+	margin-left:50px ;
+	display: inline-block;
+	width: 60%;
+}
+.title{
+	font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.xkpic a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Arial Normal', 'Arial';
+    color: black;
+    padding-bottom: 10px;
+    
+    
+}
+.xkpic a:hover{
+	color:  deepskyblue;
+	
+}
+.xkpic div{
+	border-right: solid 1px darkgray;
+	padding-right: 40px;
+	padding-left: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+  /*登录注册*/
+.dlzc{
+	display: inline;
+	float: right;
+	vertical-align: middle;
+	width: 15%;
+	line-height: 30px;
+	padding-top: 25px;
+}
+.dlzc span{
+	font-size: 17px;
+    line-height: 30px;
+    display: inline-block;
+    width: 50px;
+    margin: 0 5px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.denglu{
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: solid 1px;
+	display: inline;
+	vertical-align: middle;
+}
+.zhuce{
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline;
+	vertical-align: middle;
+}
+.touxiang{
+	display: inline;
+	
+}
+.touxiang img{
+	border-radius: 50%;
+	border: solid 2px indigo;
+	vertical-align: middle;
+	
+}
+
+
+/*foot*/
+footer p{
+	text-align: center;
+	font-size: 16px;
+}
+footer{
+	width: 1536px;
+	height: 200px;
+	background-color: #D3D3D3;
+}
+footer div{
+	padding-top: 30px;
+}
+
+
+/*展示区*/
+.content{
+	display: inline-block;
+	width: 700px;
+}
+.nav li{
+}
+
+
+/*提问区*/
+.tiwenqu{
+	font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+	text-align: center;
+	color: #000000;
+	margin-top: 15px;
+	font-size:40px;
+	font-weight:700;
+	font-style: normal;
+	color: #333333;
+}
+.nav2{
+	display: inline-block;
+	width: 650px;
+	float: left;
+	margin-right: 150px;
+
+}
+.ask{
+	margin-left: 200px;
+	border: solid   #ADB5BD 1px;
+	border-radius: 15px;
+	width: 1120px;
+	margin-top:40px ;
+    background-color: rgba(242, 242, 242, 1);
+}
+.ask .nav{
+	margin: 30px;
+	border: solid   #383D41 2px;
+	border-radius: 5px;
+}
+
+.ask .activea{
+   	text-align: center;
+   	background-color: #CCCCCC;
+   	font-size: 18px;
+   	border-bottom: solid  #545B62 2px;
+}
+#g{
+	background-color:   #686868;
+	font-size: 20px;
+	font-weight:700;
+}
+/* 全部，审批中，失效 部分*/
+.nav2 ul{
+	list-style: none;
+}
+.nav2 li{
+	float: left;
+	color:  #495057;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	border:solid  #CED4DA 1px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 14px;
+	
+}
+.nav2 li:hover{
+	border-color: rgba(16, 142, 233, 1);
+	cursor: pointer;
+}
+.kind{
+}
+.kind p{
+	line-height: 30px;
+	font-size: 14px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.shuru{
+	border: solid #818182 1px;
+	border-radius: 3px;
+	float: right;
+	height: 30px;
+	width: 150px;
+}
+.sousuo{
+	background-color:  #007BFF;
+	color: white;
+	border-radius: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	float: right;
+	height: 30px;
+	width: 60px;
+	margin-left: 15px;
+}
+.wenti{
+	border: solid #A9A9A9 1px ;
+	border-radius: 5px;
+	box-shadow: 0px 2px 10px 3px  lightgrey;
+	width: 260px;
+}
+/*选项卡*/
+.card img{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin: 10px;
+}
+.card .wenti{
+	display: inline-block;
+	border-bottom: solid #ADB5BD 1px;
+}
+.card p{
+	vertical-align: middle;
+	line-height: 10px;
+}
+.wtsm{
+	display: inline-block;
+	
+}
+.wtsm p{
+	margin: 10px;
+	
+}
+.wenti{
+	display: inline-block;
+	margin-right: 35px;
+	margin-bottom: 20px;
+	width: 270px;
+}
